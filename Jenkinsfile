@@ -23,7 +23,7 @@ metadata:
 spec:
   containers:
   - name: jnlp
-    image: gudari/jenkins-agent:4.9-ranger-arm64
+    image: gudari/jenkins-agent:4.11.2-ranger-arm64
     imagePullPolicy: Always
     resources:
       limits:
