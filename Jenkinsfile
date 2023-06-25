@@ -43,6 +43,7 @@ spec:
         GITHUB_REPO         = 'atlas'
         VERSION             = '2.3.0'
         GITHUB_TOKEN        = credentials('github_token')
+        ARCH                = 'amd64'
     }
     stages {
         stage('Build') {
